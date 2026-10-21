@@ -1,0 +1,9 @@
+# ForgeCopilot demo dependencies
+#
+# The offline desktop edition uses only the Python standard library
+# (tkinter + sqlite3), so on an engineering PC with Python installed it
+# runs with no third-party packages at all.
+#
+# PyInstaller is only needed on the development machine to build the
+# portable exe bundle:
+#   pip install pyinstaller

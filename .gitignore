@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+# Local runtime data (created on first run / by the demo data generator).
+# The database contains local working data and is never committed.
+db/*.db
+db/*.db-journal
+db/app_config.json
+db/backups/
+
+build/
+dist/
+release/
+exports/
+*.spec
